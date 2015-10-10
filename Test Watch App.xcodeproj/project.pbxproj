@@ -20,6 +20,9 @@
 		F34FC09E1BC97AF2006CABB2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC09D1BC97AF2006CABB2 /* ExtensionDelegate.swift */; };
 		F34FC0A01BC97AF2006CABB2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC09F1BC97AF2006CABB2 /* NotificationController.swift */; };
 		F34FC0A21BC97AF2006CABB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34FC0A11BC97AF2006CABB2 /* Assets.xcassets */; };
+		F34FC0B21BC97D48006CABB2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC0B11BC97D48006CABB2 /* InterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		F34FC0B41BC97D8D006CABB2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC0B31BC97D8D006CABB2 /* Event.swift */; settings = {ASSET_TAGS = (); }; };
+		F34FC0B61BC983EA006CABB2 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FC0B51BC983EA006CABB2 /* TableRowController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +86,9 @@
 		F34FC09F1BC97AF2006CABB2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		F34FC0A11BC97AF2006CABB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F34FC0A31BC97AF2006CABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34FC0B11BC97D48006CABB2 /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F34FC0B31BC97D8D006CABB2 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F34FC0B51BC983EA006CABB2 /* TableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				F34FC08A1BC97AF2006CABB2 /* Interface.storyboard */,
+				F34FC0B51BC983EA006CABB2 /* TableRowController.swift */,
 				F34FC08D1BC97AF2006CABB2 /* Assets.xcassets */,
 				F34FC08F1BC97AF2006CABB2 /* Info.plist */,
+				F34FC0B11BC97D48006CABB2 /* InterfaceController.swift */,
+				F34FC0B31BC97D8D006CABB2 /* Event.swift */,
 			);
 			path = "Test Watch App WatchKit App";
 			sourceTree = "<group>";
@@ -298,6 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F34FC0B41BC97D8D006CABB2 /* Event.swift in Sources */,
+				F34FC0B21BC97D48006CABB2 /* InterfaceController.swift in Sources */,
+				F34FC0B61BC983EA006CABB2 /* TableRowController.swift in Sources */,
 				F34FC0791BC97AF2006CABB2 /* ViewController.swift in Sources */,
 				F34FC0771BC97AF2006CABB2 /* AppDelegate.swift in Sources */,
 			);
@@ -538,6 +550,7 @@
 				F34FC0A81BC97AF2006CABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F34FC0AA1BC97AF2006CABB2 /* Build configuration list for PBXNativeTarget "Test Watch App WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +559,7 @@
 				F34FC0AC1BC97AF2006CABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F34FC0AE1BC97AF2006CABB2 /* Build configuration list for PBXNativeTarget "Test Watch App" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +568,7 @@
 				F34FC0B01BC97AF2006CABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
