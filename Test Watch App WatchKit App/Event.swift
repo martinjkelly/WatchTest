@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import WatchKit
 
 class Event {
     var teamColor:String!
